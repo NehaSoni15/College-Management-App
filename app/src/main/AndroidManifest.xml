@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ncca"
+        tools:targetApi="31">
+        <activity
+            android:name=".StudFy"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveFac"
+            android:exported="false" />
+        <activity
+            android:name=".StudDoc"
+            android:exported="false" />
+        <activity
+            android:name=".StudProfile"
+            android:exported="false" />
+        <activity
+            android:name=".StudFirstPage"
+            android:exported="false" />
+        <activity
+            android:name=".FacProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ViewFac"
+            android:exported="false" />
+        <activity
+            android:name=".FacFirstPage"
+            android:exported="false" />
+        <activity
+            android:name=".timetable"
+            android:exported="false" />
+        <activity
+            android:name=".notes"
+            android:exported="false" />
+        <activity
+            android:name=".assignment"
+            android:exported="false" />
+        <activity
+            android:name=".Document"
+            android:exported="false" />
+        <activity
+            android:name=".StuReg"
+            android:exported="false" />
+        <activity
+            android:name=".FacReg"
+            android:exported="false" />
+        <activity
+            android:name=".AdminStudPage"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFacultyPage"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFirstPage"
+            android:exported="false" />
+        <activity
+            android:name=".StuLogin"
+            android:exported="false" />
+        <activity
+            android:name=".FacLogin"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".FirstPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
